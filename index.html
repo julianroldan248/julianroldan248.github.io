@@ -10,35 +10,35 @@
 	<meta name="author" content="Your Name">
 	<meta name="robots" content="index, follow">
 	<style>
-        body {
-            background-color: #f2f2f2;
-        }
-        h1 {
-            color: #333;
-            font-size: 2em;
-            text-align: center;
-            margin: 50px 0;
-        }
-        p {
-            color: #666;
-            font-size: 1.2em;
-            line-height: 1.5;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        button {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            margin-top: 50px;
-            display: block;
-            margin: 0 auto;
-            cursor: pointer;
-        }
+		body {
+		    background-color: #f2f2f2;
+		}
+		h1 {
+		    color: #333;
+		    font-size: 2em;
+		    text-align: center;
+		    margin: 50px 0;
+		}
+		p {
+		    color: #666;
+		    font-size: 1.2em;
+		    line-height: 1.5;
+		    max-width: 800px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		}
+		button {
+		    background-color: #333;
+		    color: #fff;
+		    padding: 10px 20px;
+		    border: none;
+		    border-radius: 5px;
+		    font-size: 1.2em;
+		    margin-top: 50px;
+		    display: block;
+		    margin: 0 auto;
+		    cursor: pointer;
+		}
     	</style>
 </head>
 <body>
@@ -52,6 +52,18 @@
 	</nav>
 	<h1>Welcome to my basic webpage</h1>
 	<p>This is an example of a basic webpage with a navigation bar and some meta tags.</p>
+	<h1>Welcome to my webpage!</h1>
+	<p>This is a basic example of a webpage using HTML, CSS, and JavaScript.</p>
+
+	<button onclick="changeColor()">Change color</button>
+
+	<script>
+	    function changeColor() {
+		var body = document.querySelector('body');
+		body.style.backgroundColor = '#333';
+		body.style.color = '#fff';
+	    }
+	</script>
 </body>
 </html>
 
